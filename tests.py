@@ -86,7 +86,7 @@ def open_file(file_url):
 
 data = open_file('transportadoras.csv') # abrir o arquivo 
 weight = 94
-costs = calculate_cost_shipping('Campinas', data, weight) 
+costs = calculate_cost_shipping('Recife', data, weight) 
 print(get_option_mais_em_conta(costs))
 
 print(get_option_mais_rapida(costs))
